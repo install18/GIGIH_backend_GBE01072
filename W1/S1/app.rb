@@ -1,11 +1,11 @@
 # frozen_string_literal: true
 
-require_relative 'player'
+require_relative 'person'
 
-jin = Player.new('Jin Sakai', 100, 50)
+jin = Character.new('Jin Sakai', 100, 50)
 puts jin
 
-khotun = Player.new('Khotun Khan', 500, 50)
+khotun = Character.new('Khotun Khan', 500, 50)
 puts khotun
 
 while 1

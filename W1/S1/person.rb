@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class Player
+class Character
   attr_reader :name, :attack_damage, :hitpoint
 
   def initialize(name, hitpoint, attack_damage)
