@@ -1,0 +1,36 @@
+<h1>Item</h1>
+
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Price</th>
+    <th>Category</th>
+  </tr>
+
+  <% items.each do |item| %>
+  <tr>
+    <td><%= item.id %></td>
+    <td><%= item.name %></td>
+    <td><%= item.price %></td>
+    <td><%= item.category.name %></td>
+    <td><a href="/items/detail/<%= item.id %>">Show</a></td>
+    <td><a href="/items/edit/<%= item.id %>">Edit</a></td>
+    <td><button onclick="deleteItem(<%= item.id %>)">Delete</button></td>
+  </tr>
+  <% end %>
+</table>
+
+<a href="/items/new">Add Item</a>
+<a href="/categories">List Categories</a>
+
+<script>
+  function deleteItem(id) {
+    fetch('http://127.0.0.1:4567/items/delete/' + id, {
+        method: 'DELETE'
+    })
+      .then(() => {
+          location.reload()
+      })
+  }
+</script>
