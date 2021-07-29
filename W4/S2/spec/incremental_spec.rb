@@ -18,4 +18,12 @@ RSpec.describe Incremental do
 
     expect(result).to eq([4, 0])
   end
+
+  it 'returns [1,0, 0] if passed [9,9]' do
+    array_of_integer = Incremental.new
+
+    result = array_of_integer.increment([9, 9])
+
+    expect(result).to eq([1, 0, 0])
+  end
 end
