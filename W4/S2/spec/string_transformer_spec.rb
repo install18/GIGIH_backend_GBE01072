@@ -8,4 +8,12 @@ RSpec.describe StringTransformer do
 
     expect(result).to eq('k')
   end
+
+  it 'returns z if passed e' do
+    string_transformer = StringTransformer.new
+
+    result = string_transformer.transform('e')
+
+    expect(result).to eq('z')
+  end
 end
