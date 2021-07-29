@@ -1,0 +1,106 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/home/install18/RubymineProjects/GIGIH_backend_GBE01072/W4/S2/spec/incremental_spec.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/home/install18/RubymineProjects/GIGIH_backend_GBE01072/W4/S2/src/incremental.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          4,
+          4,
+          null,
+          4,
+          3,
+          3,
+          1,
+          null,
+          2,
+          null,
+          3,
+          null,
+          null,
+          4,
+          null,
+          null
+        ]
+      },
+      "/home/install18/RubymineProjects/GIGIH_backend_GBE01072/W4/S2/spec/string_transformer_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/home/install18/RubymineProjects/GIGIH_backend_GBE01072/W4/S2/src/string_transformer.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          null,
+          1,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1627569068
+  }
+}
