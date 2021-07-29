@@ -26,4 +26,12 @@ RSpec.describe Incremental do
 
     expect(result).to eq([1, 0, 0])
   end
+
+  it 'returns [6] if passed [5]' do
+    array_of_integer = Incremental.new
+
+    result = array_of_integer.increment([5])
+
+    expect(result).to eq([6])
+  end
 end
